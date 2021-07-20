@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+
+.fundo{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);	
+}
+
+.nome_titulo{
+	font-family: arial;
+	font-size: 27px;
+
+}
+
+.sub_titulo{
+	font-family: arial;
+	font-size: 25px;
+}
+
+.sobre_mim{
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.btn_info{
+	position: absolute;
+	top: 55%;
+	left: 7%;
+	font-family: arial;
+	padding: 6px;
+	border-radius: 10px;
+	border: 2px solid;
+	cursor: pointer;
+}
+
+.resultado_sobre_mim{
+	position: absolute;
+	top: 62%;
+	left: 7%;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.objetivos{
+	position: absolute;
+	top: 50%;
+	right: 7%;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.btn_objetivos{
+	position: absolute;
+	top: 55%;
+	right: 7%;
+	font-family: arial;
+	padding: 6px;
+	border-radius: 10px;
+	border: 2px solid;
+	cursor: pointer;
+}
+
+.resultado_objetivos{
+	position: absolute;
+	top: 62%;
+	right: 7%;
+	font-family: arial;
+	font-size: 15px;
+}
+
+.imagem{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	border-radius: 50%;
+	border: solid white;
+}
